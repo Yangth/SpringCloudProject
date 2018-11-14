@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="itmyiedu-shopp-api" />
+        <module name="itmyiedumessage" />
+        <module name="itmyiedushoppcommon" />
+        <module name="itmyiedushoppeurekaserver" />
+        <module name="itmyiedushoppmember" />
+        <module name="itmyiedushoppmemberapi" />
+        <module name="itmyiedushopporder" />
+        <module name="itmyiedushopporderapi" />
+        <module name="itmyiedushopppay" />
+        <module name="itmyiedushopppayapi" />
+        <module name="itmyiedushopppcweb" />
+        <module name="itmyiedushoppweixin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="itmyiedumessage" target="1.8" />
+      <module name="itmyiedushoppapi" target="1.8" />
+      <module name="itmyiedushoppcommon" target="1.8" />
+      <module name="itmyiedushoppeurekaserver" target="1.8" />
+      <module name="itmyiedushoppmember" target="1.8" />
+      <module name="itmyiedushoppmemberapi" target="1.8" />
+      <module name="itmyiedushopporder" target="1.8" />
+      <module name="itmyiedushopporderapi" target="1.8" />
+      <module name="itmyiedushoppparent" target="1.8" />
+      <module name="itmyiedushopppay" target="1.8" />
+      <module name="itmyiedushopppayapi" target="1.8" />
+      <module name="itmyiedushopppcweb" target="1.8" />
+      <module name="itmyiedushoppweixin" target="1.8" />
+      <module name="transaction-dubbo" target="1.8" />
+      <module name="transaction-motan" target="1.8" />
+      <module name="transaction-springcloud" target="1.8" />
+      <module name="tx-client" target="1.8" />
+      <module name="tx-lcn" target="1.8" />
+      <module name="tx-manager" target="1.8" />
+      <module name="tx-plugins-db" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

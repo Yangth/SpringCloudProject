@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itmyiedumessage/itmyiedumessage.iml" filepath="$PROJECT_DIR$/itmyiedumessage/itmyiedumessage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppapi/itmyiedushoppapi.iml" filepath="$PROJECT_DIR$/itmyiedushoppapi/itmyiedushoppapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppcommon/itmyiedushoppcommon.iml" filepath="$PROJECT_DIR$/itmyiedushoppcommon/itmyiedushoppcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppeurekaserver/itmyiedushoppeurekaserver.iml" filepath="$PROJECT_DIR$/itmyiedushoppeurekaserver/itmyiedushoppeurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppmember/itmyiedushoppmember.iml" filepath="$PROJECT_DIR$/itmyiedushoppmember/itmyiedushoppmember.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppapi/itmyiedushoppmemberapi/itmyiedushoppmemberapi.iml" filepath="$PROJECT_DIR$/itmyiedushoppapi/itmyiedushoppmemberapi/itmyiedushoppmemberapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushopporder/itmyiedushopporder.iml" filepath="$PROJECT_DIR$/itmyiedushopporder/itmyiedushopporder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppapi/itmyiedushopporderapi/itmyiedushopporderapi.iml" filepath="$PROJECT_DIR$/itmyiedushoppapi/itmyiedushopporderapi/itmyiedushopporderapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppparent.iml" filepath="$PROJECT_DIR$/itmyiedushoppparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushopppay/itmyiedushopppay.iml" filepath="$PROJECT_DIR$/itmyiedushopppay/itmyiedushopppay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppapi/itmyiedushopppayapi/itmyiedushopppayapi.iml" filepath="$PROJECT_DIR$/itmyiedushoppapi/itmyiedushopppayapi/itmyiedushopppayapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushopppcweb/itmyiedushopppcweb.iml" filepath="$PROJECT_DIR$/itmyiedushopppcweb/itmyiedushopppcweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itmyiedushoppweixin/itmyiedushoppweixin.iml" filepath="$PROJECT_DIR$/itmyiedushoppweixin/itmyiedushoppweixin.iml" />
+    </modules>
+  </component>
+</project>

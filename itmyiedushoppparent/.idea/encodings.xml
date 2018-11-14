@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedumessage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppapi/itmyiedushoppmemberapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppapi/itmyiedushopporderapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppapi/itmyiedushopppayapi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppcommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppeurekaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppmember" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushopporder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushopppay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushopppcweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itmyiedushoppweixin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tx-lcn-master" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tx-lcn-master/transaction-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tx-lcn-master/transaction-motan" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tx-lcn-master/transaction-springcloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tx-lcn-master/tx-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tx-lcn-master/tx-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../tx-lcn-master/tx-plugins-db" charset="UTF-8" />
+  </component>
+</project>
