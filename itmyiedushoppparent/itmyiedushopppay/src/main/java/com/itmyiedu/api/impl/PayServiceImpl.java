@@ -16,6 +16,7 @@ import com.itmyiedu.utils.TokenUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -41,8 +42,11 @@ public class PayServiceImpl extends BaseApiService implements PayService{
         if (savePaymentType <= 0) {
             return setResultError("savePaymentType保存失败!");
         }
+        //新增order表数据
         ResponseBase saveOrderResult = orderFeign.insertOrderInfo(paymentInfo.getOrderId(),paymentInfo.getUserId());
         if (!saveOrderResult.getRtnCode().equals(Constants.HTTP_RES_CODE_200)) {
+            //事物手动回滚
+            TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
             return setResultError("insertOrderInfo保存失败!");
         }
         // 2.生成对应token

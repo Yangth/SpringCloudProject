@@ -15,6 +15,7 @@ import com.itmyiedu.mapper.PaymentInfoDao;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -65,6 +66,8 @@ public class PayCallBackServiceImpl extends BaseApiService implements PayCallBac
             String out_trade_no=params.get("out_trade_no");
             PaymentInfo paymentInfo = paymentInfoDao.getByOrderIdPayInfo(out_trade_no);
             if(paymentInfo==null){
+                //事物手动回滚
+                TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
                 return Constants.HTTP_RES_CODE_500_VALUE;
             }
             //支付宝重试机制，保证幂等性
